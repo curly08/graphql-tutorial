@@ -32,6 +32,7 @@ gem "bootsnap", require: false
 
 # Use Sass to process CSS
 # gem "sassc-rails"
+gem 'graphql', '1.11.6'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -49,3 +50,4 @@ group :development do
   # gem "spring"
 end
 
+gem "graphiql-rails", '1.7.0', group: :development
